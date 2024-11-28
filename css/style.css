@@ -1,0 +1,391 @@
+@font-face{
+	 src: url(../fonts/opensans-regular.ttf);
+	 font-family: opensans-regular ;
+}
+@font-face{
+	 src: url(../fonts/opensans-bold.ttf);
+	 font-family: opensans-bold ;
+}
+@font-face{
+	 src: url(../fonts/opensans-regular.ttf);
+	 font-family: opensans-regular ;
+}
+
+
+
+/*font-family: "Ubuntu", sans-serif;*/
+
+/* common css star*/
+body{
+	 margin: 0;
+	 font-family: "playfair", serif;
+	 font-weight: 400;
+	 font-size: 16px;
+	 color: #626262;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	    padding:60px 0
+	   /*border: 1px solid black;*/
+}
+
+.container{
+	width: 90%;
+	/* border: 1px solid darkred; */
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.logo{
+	width: 12%;
+	float: left;
+	}
+.logo a{
+	display: block;
+
+  }
+
+.logo img{
+	width: 100%;
+	height: 50px;
+	
+
+}
+.menu{
+	margin-top: 3px;
+	width: 55%;
+	float: right;
+	overflow: hidden;
+
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+			
+ 			list-style: none;
+ 			float: left;	
+
+}
+.menu ul li a{
+			  font-family: sans-serif;
+			  font-weight: 400;
+			  color: #626262 ;
+			  text-decoration: none;
+ 			  margin: 10px 50px 0 0;
+			  display: inline-block;
+			  text-transform: uppercase;
+			  
+}
+.menu ul li:last-child a{
+						  margin-right: 0;
+}
+.menu ul li a :hover{
+	background-color: orange;
+}
+/*Header end*/
+
+/*banner part start*/
+
+.banner{
+
+}
+.b_image{
+	width: 100%;
+	height: 600px ;
+	object-fit: cover;
+}
+.b_image img
+
+/*banner part end*/
+
+/* perfect css part start*/
+ .Perfect{
+         padding: 100px 0 40px;
+ }
+ .container2{
+ 	margin: 0 auto;
+ 	overflow: hidden;
+ 	width: 80%;
+
+
+ }
+ .p_content{
+
+ }
+.c-light{
+	animation-fill-mode: 0;
+	font-family: "ubuntu",sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+
+}
+.c_title{
+		margin: 15px 0 20px;
+ 		font-size: 30px;
+ 		font-weight: 400;
+}
+.c_p{
+	margin: 0;
+	line-height: 24px;
+	
+ 
+}
+.c_link{
+	margin-top: 35px ;
+	color: #626262;
+	display: block;
+	text-decoration: none;
+	
+
+}
+
+/* perfect css part end*/
+
+/* blog part start*/
+.blog{
+	padding: 0 0 100PX;
+}
+.container2{}
+.sb_blog{
+	margin-top: 60px;
+	float: left ;
+	box-sizing: border-box;
+	width: 47%;
+	
+}
+.sb_blog:nth-child(even){
+	margin-left: 6%;
+}
+.sb_img{
+	margin-bottom: 25px;
+}
+.sb_img img{
+	width: 100%;
+}
+
+
+/* blog part end*/
+
+
+/* newslatter css start*/
+.news{
+	background-color:#f0f0f0;
+	padding: 70px 0;
+}
+.container2{
+
+}
+.signup{
+	text-align: center;
+
+}
+.c_title{
+    margin: 15px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+.c_title s_h1{
+
+}
+.s_h1{
+	color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+form{
+	display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.s_form{
+	position: relative;
+    width: 400px;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+}
+.s_form input{
+	font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #626262;
+    width: 345px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+s_form button{
+	position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 13px;
+    right: 0;
+}
+button{
+	appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-variant-emoji: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-size-adjust: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.s_form img {
+	width: 100%;
+	height: 20px;
+
+}
+
+
+/* newslatter css end*/
+
+/*blog css start*/
+.blog{
+
+}
+.container2{
+
+}
+.sb_blog{
+	
+
+
+}
+.sb_img{
+}
+.sb_img img{
+}
+.c-light{
+}
+.c_title{
+}
+.
+c_p{
+}
+
+
+/*blog css end*/
+
+
+/*load css start*/
+.blog2{
+	padding: 40px 0 100px;
+	margin-left: 100px;
+
+}
+.load{
+	text-align: center;
+	padding: 100px 0;
+}
+.load button{
+			width: 165px;
+			height: 60px;
+			backgroung-color: white;
+
+.load button: hoaver 
+
+}
+/*load css end*/
+
+/*footer css part start*/
+
+.foooter{
+	overflow: hidden;
+	background-color:#f0f0f0;
+	padding: 20px 0;
+
+}
+.left_part{
+	width: 27%;
+   float: left;
+
+}
+
+.left_part ul{
+    padding: 0;
+    list-style: none;
+}
+}
+
+.left_part ul li {
+	    float: left;
+    list-style: none;
+
+
+}
+.left_part ul li a{
+
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 35px;
+    border-bottom: 1px solid transparent;
+    color: #000000;
+    transition: .33s;
+}
+.footer_icon{
+	width: 30%;
+    float: right;
+
+}
+.footer_icon ul{
+	list-style: none;
+float: right;
+    padding: 0;
+}
+.footer_icon ul li{
+   list-style: none;
+ 			float: left;
+}
+.footer_icon ul li a{
+font-family: sans-serif;
+			  font-weight: 400;
+			  color: #626262 ;
+			  text-decoration: none;
+ 			  margin: 10px 50px 0 0;
+			  display: inline-block;
+			  text-transform: uppercase;
+}
+
+/*footer css part end*/
